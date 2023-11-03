@@ -1,0 +1,126 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url(./images/header-background.png);
+    background-size: cover;
+    background-repeat: round;
+}
+footer{
+    background-image: url(./images/background-slider-image.png);
+    background-size: cover;
+    background-repeat: round;
+}
+#logo{
+    width: 100px;
+    height: 100px;
+}
+#telephone_button_image{
+    width: 100px;
+}
+#email{
+    color: black;
+    text-decoration: none;
+}
+#menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    inline-size: -webkit-fill-available;
+    background-color: burlywood;
+    padding: unset;
+}
+.menu_item{
+    margin-inline: 5px;
+}
+.menu_item:hover{
+    background-color: brown;
+    cursor: pointer;
+}
+#Contacts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: gray;
+    opacity: 0.9;
+}
+footer{
+    margin-top: 30px;
+    width: 1010px;
+    height: 500px;
+    background-color: gray;
+    background-blend-mode: multiply;
+}
+#cardboard-title{
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+}
+#banner-text{
+    color: white;
+    width: 500px;
+    margin-left: 100px;
+}
+#product-image{
+    width: 200px;
+}
+#buy-product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#buy-product_buttons{
+    margin-top: 10px;
+    margin-top: 10px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.action-button{
+    background-color: burlywood;
+    border: none;
+}
+#feedback-form{
+    position: absolute;
+    background-color: gray;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    visibility: hidden;
+}
+.feedback-form-input{
+    margin-inline: 10px;
+    margin-bottom: 10px;
+}
+.feedback-form-input-name{
+    margin-inline: 10px;
+    margin-top: 10px;
+}
+.feedback-form-input:nth-child(5){
+    height: 100px;
+    resize: none;
+}
+.feedback-form-button{
+    width: 100px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.feedback-form-button:hover{
+    cursor: pointer;
+}
+.close-button{
+    width: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}

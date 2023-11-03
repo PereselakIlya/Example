@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Example</title>
+        <link rel="stylesheet" href="./index.css" type="text/css">
+    </head>
+    <body>
+        <form id="feedback-form">
+            <button class="close-button" onclick="document.getElementById('feedback-form').style.visibility='hidden'">X</button>
+            <p class="feedback-form-input-name">Имя</p>
+            <input class="feedback-form-input" type="text" placeholder="Введите имя">
+            <p class="feedback-form-input-name">Отзыв</p>
+            <textarea class="feedback-form-input" placeholder="Введите отзыв"></textarea>
+            <button class="feedback-form-button" type="button">Отправить</button>
+        </form>
+        <header>
+            <img id="logo" src="./images/logo.svg">
+            <ul id="menu">
+                <li class="menu_item">Картон в наличии</li>
+                <li class="menu_item">Заказ картона</li>
+                <li class="menu_item" onclick="document.getElementById('feedback-form').style.visibility='visible'">Оставить отзыв</li>
+                <li class="menu_item">Сотрудничество</li>
+                <li class="menu_item">Изделия из сотового картона</li>
+            </ul>
+            <div id="Contacts">
+                <a id="email" href="mailto:cardboard@mail.ru">Задавайте вопросы по электронной почте</a>
+            <a class="telephone_button" href="viber://chat?number=%2B375447929591">
+                <img id="telephone_button_image" src="./images/Viber-logo.png">
+            </a>
+            <a class="telephone_button" href="https://api.whatsapp.com/send/?phone=79200000000">
+                <img id="telephone_button_image" src="./images/whatsapp-logo.png">
+            </a>
+            </div>
+        </header>
+        <footer>
+            <h3 id="cardboard-title">Сотовый картон</h3>
+            <p id="banner-text">Сотовый картон – разновидность картона, внутренняя часть которого имеет отверстия в виде шестигранных сот.</p>
+            <p id="banner-text">Стоимость исходя из формата (от 18.00 руб. до 24.12 руб.)</p>
+            <div id="buy-product">
+                <img id="product-image" src="./images/product-image.jpg">
+                <div id="buy-product_buttons">
+                    <button class="action-button">Заказать пластину из сотового картона</button>
+                    <button class="action-button">Заказать изделие из сотового картона</button>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
